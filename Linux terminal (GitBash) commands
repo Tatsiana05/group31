@@ -1,0 +1,22 @@
++ Linux terminal commands
+  + 1. Посмотреть где я   pwd
+  + 2. Создать папку   mkdir Homework_31
+  + 3. Зайти в папку   cd Homework_31
+  + 4. Создать 3 папки   mkdir new-folder-1 new-folder-2 new-folder-3
+  + 5. Зайти в любую папку   cd new-folder-1
+  + 6. Создать 5 файлов (3 txt, 2 json)   touch file1.txt file2.txt file3.txt file4.json file5.json
+  + 7. Создать 3 папки   mkdir new-1 new-2 new-3
+  + 8. Вывести список содержимого папки   ls -la
+  + 9. Открыть любой txt файл   vim file1.txt
+  + 10. Написать туда что-нибудь, любой текст
+  +    I am going to study.
+  + 11. Сохранить и выйти   Esc + Shift : + wq
+  + 12. Выйти из папки на уровень выше   cd ..
+  + 13. Переместить любые 2 файла, которые вы создали, в любую другую папку   mv C:/Users/USER/Homework_31/new-folder-1/file4.json C:/Users/USER/Homework_31/new-folder-  1/file5.json C:/Users/USER/Homework_31/new-folder-2
+  + 14. Скопировать любые 2 файла, которые вы создали, в любую другую папку   cp C:/Users/USER/Homework_31/new-folder-1/file2.txt C:/Users/USER/Homework_31/new-folder-1/file3.txt C:/Users/User/Homework_31/new-folder-3
+  + 15. Найти файл по имени   find . -name file1.txt
+  + 16. Просмотреть содержимое в реальном времени (команда grep)    grep 'study' C:/Users/USER/Homework_31/new-folder-1/file1.txt
+  + 17. Вывести несколько первых строк из текстового файла    head -2 C:/Users/User/Homework_31/new-folder-1/file1.txt
+  + 18. Вывести несколько последних строк из текстового файла   tail -2 C:/Users/USER/Homework_31/new-folder-1/file1.txt
+  + 19. Просмотреть содержимое длинного файла (команда less)   less C:/Users/USER/Homework_31/new-folder-1/file1.txt
+  + 20. Вывести дату и время   date
