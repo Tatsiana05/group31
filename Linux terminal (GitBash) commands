@@ -20,3 +20,5 @@
   + 18. Вывести несколько последних строк из текстового файла   tail -2 C:/Users/USER/Homework_31/new-folder-1/file1.txt
   + 19. Просмотреть содержимое длинного файла (команда less)   less C:/Users/USER/Homework_31/new-folder-1/file1.txt
   + 20. Вывести дату и время   date
+  
+    
